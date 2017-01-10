@@ -1,0 +1,34 @@
+.player
+{
+    position: relative;
+    width: 600px;
+    height: 400px;
+}
+
+#video2
+{
+    position: absolute;
+    top: 30px;
+    left: 18%;
+    opacity: 0;
+}
+
+.button-action
+{
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    position: absolute;
+    left: 33%;
+    bottom: 100px;
+    color: #FFF;
+    background: #FF4A20;
+    border: 0;
+    cursor: pointer;
+}
+
+.blur
+{
+    filter: url(img/filter.svg#blur); /* FF, IE10 & Opera */
+   -webkit-filter: blur(7px); /* Chrome */
+}
